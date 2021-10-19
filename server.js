@@ -6,9 +6,9 @@ function sleep(ms) {
 
 async function main() {
   const docker_username = process.env.DOCKER_USERNAME;
-  console.log(`DOCKER_USERNAME = ${docker_username}`);
+  
   while(true) {
-    console.log("Microservices rock!");
+    console.log(`DOCKER_USERNAME = ${docker_username}`);
     await sleep(5000);
   }
 }
